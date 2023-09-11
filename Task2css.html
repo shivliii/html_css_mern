@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .vnb {
+            width: 200px;
+            border: 1px solid;
+        }
+
+        .vnb a {
+            color: blue;
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+            background-color: aqua;
+        }
+
+        .vnb a.home1 {
+            background-color: orange;
+            color: white;
+        }
+
+        .vnb a:hover {
+            background-color: orange;
+        }
+
+        ul {
+            list-style-type: none;
+            
+            margin-right: 80%;
+            padding: 0;
+            overflow: hidden;
+            background-color: lightgray;
+            border: 1px solid;
+        }
+
+        li {
+            float: left;
+            
+        }
+
+        li a {
+            display: block;
+            color: blue;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border-left: 1px solid blue;
+            
+        }
+
+        li a:hover {
+            background-color:gray;
+        }
+
+        .active {
+            background-color:gray;
+            color:white;
+        }
+        
+          .he{
+            border-right: 1px solid blue;
+          }  
+        
+    </style>
+</head>
+
+<body>
+    <div class="nb">
+        <h4>Vertical Navigation Bar</h4>
+        <div class="vnb">
+            
+            <a href="#" class="home1">Home</a>
+            <a href="#">Java</a>
+            <a href="#">CSS</a>
+            <a href="#">HTML</a>
+            <a href="#">Bootstrap</a>
+        </div>
+        <br>
+        <br>
+        <h4>Horizontal Navigation Bar</h4>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">Java</a></li>
+            <li><a href="#contact">HTML</a></li>
+            <li><a class="he" href="#about">CSS</a></li>
+        </ul>
+    </div>
+    <br>
+    <a href="Task1css.html">Go back</a><br>
+    <a href="Task3css.html">Go to next</a>
+</body>
+
+</html>
